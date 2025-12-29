@@ -1,7 +1,7 @@
 # 📌 Retrieval-Augmented Generation (RAG)
 
 <p align="center">
-  <img src="image.png" width="50%">
+  <img src="image.png" width="100%">
 </p>
 
 Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by retrieving relevant external knowledge and injecting it into the prompt before generation.  
