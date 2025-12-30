@@ -26,7 +26,7 @@ The pipeline prepares documents for semantic search by converting them into dens
             │  load → clean → chunk    │
             │  embed documents         │
             └─────────────┬────────────┘
-                          │ embeddings
+                          │ 
                           ▼
             ┌──────────────────────────┐
             │   FAISS Vector Store     │
