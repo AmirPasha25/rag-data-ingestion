@@ -30,10 +30,10 @@ Raw data is processed, transformed, and stored to enable fast and accurate seman
 At query time, the system retrieves the most relevant knowledge chunks.
 
 ### Retrieval Flow
-- Convert user query into an embedding
-- Perform similarity search using FAISS
-- Retrieve Top-K most relevant document chunks
-- Inject retrieved context into the LLM prompt
+* Convert user query into an embedding
+* Perform similarity search using FAISS
+* Retrieve Top-K most relevant document chunks
+* Inject retrieved context into the LLM prompt
 
 ---
 
