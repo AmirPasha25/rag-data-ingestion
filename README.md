@@ -41,12 +41,12 @@ At query time, the system retrieves the most relevant knowledge chunks.
 
 ### Embeddings
 - Sentence-Transformers
-  - BGE
-  - E5
-  - SBERT
+  * BGE
+  * E5
+  * SBERT
 
 ### Vector Store
-- FAISS (Facebook AI Similarity Search)
+* FAISS (Facebook AI Similarity Search)
 
 ---
 
