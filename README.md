@@ -17,11 +17,11 @@ This approach improves factual accuracy, grounding, and significantly reduces ha
 Raw data is processed, transformed, and stored to enable fast and accurate semantic search.
 
 ### Ingestion Pipeline
-- Load documents (PDF / Text / CSV)
-- Clean and preprocess text
-- Chunk documents into semantically meaningful segments
-- Generate dense vector embeddings
-- Store embeddings in FAISS for efficient similarity search
+* Load documents (PDF / Text / CSV)
+* Clean and preprocess text
+* Chunk documents into semantically meaningful segments
+* Generate dense vector embeddings
+* Store embeddings in FAISS for efficient similarity search
 
 ---
 
