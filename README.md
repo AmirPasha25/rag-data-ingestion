@@ -4,7 +4,8 @@
   <img src="image.png" width="100%">
 </p>
 
-Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by retrieving relevant external knowledge and injecting it into the prompt before generation.  
+Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by retrieving relevant external knowledge and injecting it into the prompt before generation. 
+
 This approach improves factual accuracy, grounding, and significantly reduces hallucinations.
 
 ---
