@@ -3,7 +3,6 @@ langchain-core
 langchain-community
 openai
 pypdf
-pymupdf
 ipykernel
 dotenv
 langchain_text_splitters
@@ -12,4 +11,5 @@ numpy
 sentence_transformers
 faiss-cpu
 pickle
+
 
