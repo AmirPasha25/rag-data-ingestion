@@ -12,3 +12,4 @@ numpy
 sentence_transformers
 faiss-cpu
 pickle
+
