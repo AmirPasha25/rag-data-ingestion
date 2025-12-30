@@ -11,6 +11,27 @@ This approach improves factual accuracy, grounding, and significantly reduces ha
 ---
 
 ## 🔹 Architecture
+
+This implementation currently covers data ingestion and vector indexing only.
+The pipeline prepares documents for semantic search by converting them into dense vector embeddings stored in FAISS.
+
+            ┌──────────────────────────┐
+            │   Raw Documents (data/)  │
+            │  PDF / TXT / CSV inputs  │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+            ┌──────────────────────────┐
+            │      data_ingestion.py   │
+            │  load → clean → chunk    │
+            │  embed documents         │
+            └─────────────┬────────────┘
+                          │ embeddings
+                          ▼
+            ┌──────────────────────────┐
+            │   FAISS Vector Store     │
+            │  index dense embeddings  │
+            └──────────────────────────┘
 ---
 
 ## 🔹 Ingestion
