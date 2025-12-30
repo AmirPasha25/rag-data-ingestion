@@ -32,7 +32,21 @@ The pipeline prepares documents for semantic search by converting them into dens
             │   FAISS Vector Store     │
             │  index dense embeddings  │
             └──────────────────────────┘
+            
+Components
+	•	Raw Documents (data/)
+	•	Source files used for knowledge ingestion (PDF, text, CSV).
+	•	Data Ingestion (data_ingestion.py)
+	•	Loads documents
+	•	Cleans and preprocesses text
+	•	Splits text into chunks
+	•	Generates dense embeddings using Sentence-Transformers
+	•	Vector Store (vector_store_faiss.py)
+	•	Creates and manages FAISS index
+	•	Stores dense vector representations
+	•	Enables efficient similarity search (retrieval layer to be added later)
 ---
+
 
 ## 🔹 Ingestion
 
