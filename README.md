@@ -61,15 +61,15 @@ Raw data is processed, transformed, and stored to enable fast and accurate seman
 
 ---
 
-## 🔹 Retrieval
+## 🔹 Retrieval (Planned)
 
-At query time, the system retrieves the most relevant knowledge chunks.
+The retrieval stage will be added in the next phase of the project.
 
-### Retrieval Flow
+### Planned Retrieval Flow
 * Convert user query into an embedding
 * Perform similarity search using FAISS
 * Retrieve Top-K most relevant document chunks
-* Inject retrieved context into the LLM prompt
+* Pass retrieved context to an LLM for grounded response generation
 
 ---
 
